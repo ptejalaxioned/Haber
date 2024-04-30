@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,17 +98,30 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -66,8 +155,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -78,8 +172,13 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -87,9 +186,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -100,21 +199,139 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 86%;
   margin: 0 auto;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
 
+header {
+  background-color:#4b4b4b;
+  /* height: 100px; */
+}
 
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  align-items: center;
+}
 
+.header-left span {
+  font-size: 10px;
+  margin-left: 29px
+}
 
+.header-left h1 a {
+  font-size: 48px;
+  color: aliceblue;
+  font-weight: 900;
+}
 
+.header-left {
+  color: aliceblue;
+  background-color: #e25a3c;
+  width: 19%;
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.header-left h1::before {
+  font-family: "FontAwesome";
+  content: "\f1aa";
+  font-size: 48px;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.header-center ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-center ul li {
+  text-align: center;
+}
+
+.header-center {
+  width: 42%;
+}
+
+.header-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right a::before {
+  float: right;
+  text-indent: 0;
+  font-family: "FontAwesome";
+}
+
+.header-right a {
+  text-indent: -9999px;
+  float: left;
+}
+
+.header-right .twitter::before {
+  content: "\f081";
+}
+
+.header-right .youtube::before {
+  content: "\f167";
+}
+
+.header-right .wifi::before {
+  content: "\f1eb";
+}
+
+.header-right .facebook::before {
+  content: "\f082";
+}
+
+.header-right .google::before {
+  content: "\f1a0";
+}
+
+.header-center,
+.header-right {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.header-center a {
+  color: aliceblue;
+}
+
+.header-right a {
+  color: #808080f5;
+}
+
+.header-center a:hover {
+  color: #e25a3c;
+}
+
+.header-right {
+  width: 15%;
+  font-size: 28px;
+  padding-left: 10%;
+}
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
@@ -133,7 +350,7 @@ li {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
 
 
@@ -141,14 +358,10 @@ li {
 
 
 
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
+@media only screen and (max-width: 995px) {}
