@@ -215,6 +215,10 @@ body {
 header {
   background-color:#4b4b4b;
   /* height: 100px; */
+  position: absolute;
+ width: 100%;
+  top:0%;
+  z-index: 2;
 }
 
 header .wrapper {
@@ -233,6 +237,7 @@ header .wrapper {
   font-size: 48px;
   color: aliceblue;
   font-weight: 900;
+  line-height: 0;
 }
 
 .header-left {
@@ -332,14 +337,76 @@ header .wrapper {
 /*=================================
   Header styling ends here
 =================================*/
-
 /*=================================
   main styling starts here
 =================================*/
+/* *************************************************************************************************** */
+/*=================================
+  First Section styling starts here
+=================================*/
+.banner .wrapper{
+  width:100%;
+  position: relative;
+}
+.banner img{
+  position: relative;
+}
+.wrapper .banner-down{
+background-color: #e25a3c;
+display: flex;
+justify-content: space-between;
+margin: auto;
+width: 54%;
+color:aliceblue ;
+font-size: 36px;
+    font-weight: 900;
+padding: 25px 10px;
+position: absolute;
+bottom: 0%;
+left: 23%;
+z-index: 2;
+/* transform: translate(-50%, -50%) */
+}
 
+.banner-left a::before {
+  float: right;
+  text-indent: 0;
+  font-family: "FontAwesome";
 
+}
+.banner-right a::before {
+  float: right;
+  text-indent: 0;
+  font-family: "FontAwesome";
+}
 
+.banner-left a ,.banner-right a{
+  text-indent: -9999px;
+  float: left;
+  color: aliceblue;
+  font-size: 36px;
+  font-weight: 100;
+}
 
+.banner-left .left-arrow::before {
+  content: "\3c";
+}
+
+ .banner-right .right-arrow::before {
+  content: "\3e";
+} 
+.banner-center{
+width: 80%;
+text-align: center;
+}
+.banner-right,.banner-left {
+text-align: center;
+margin: auto;
+}
+/*=================================
+   First Section styling ends here
+=================================*/
+/* f09d */
 
 
 
