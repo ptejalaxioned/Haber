@@ -406,11 +406,85 @@ margin: auto;
 /*=================================
    First Section styling ends here
 =================================*/
+/*=================================
+   Second Section styling starts here
+=================================*/
 /* f09d */
 
+.card h3{
+  font-size: 38px;
+  text-align: center;
+  font-weight: 900;
 
+  margin: 80px auto 50px;
+}
+.card .wrapper{
+  width: 90%;
+  margin: 20px;
+}
+.card h5{
+  text-align: center;
+  width: 55%;
+  line-height: 23px;
+}
+.card p{
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+margin: 24px auto;
+}
+.card a{
+  color: black;
+  font-size: 14px;
+  padding: 15px 10px;
+  border:1px solid grey;
+  font-weight: 900;
+}
+.card h5::before{
+  display: block;
+  padding: 20px;
+  background-color: #e25a3c;
+  text-align: center;
+  width: 20%;
+    margin: auto;
+    border-radius: 77px;
+    font-size: 27px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    height: 25px;
+}
+.card .card1 h5::before{
+  font-family: "FontAwesome";
+  content: "\f09d";
+}
+.card .card2 h5::before{
+  font-family: "FontAwesome";
+  content: "\f080";
+  
+}
+.card .card3 h5::before{
+  font-family: "FontAwesome";
+  content: "\24";
+}
+.card .card4 h5::before{
+  font-family: "FontAwesome";
+  content: "\f0ac";
+}
+.card ul {
+  display: flex;
+  justify-content:space-between ;
+}
+.card ul li{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+/*=================================
+Second styling ends here
+=================================*/
 
-
+/* ******************************************************************************************************* */
 /*=================================
   main styling ends here
 =================================*/
