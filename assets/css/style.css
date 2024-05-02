@@ -481,7 +481,71 @@ margin: 21px auto 18px;
 /*=================================
 Second styling ends here
 =================================*/
+/*=================================
+Third styling starts here
+=================================*/
+.options{
+  background-color:#6398b838;
+}
+.options .wrapper{
+  width: 92%;
+  padding: 81px 0px 60px;
+}
+.options h3{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
 
+}
+.options p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 24px 24px 37px;
+}
+.option-box p::after{
+  font-family: "FontAwesome";
+  content: "\f0a9";
+  font-size: 20px;
+  padding: 13px 0px 0px;
+}
+.option-box ul{
+  display: flex;
+  justify-content: space-between;
+}
+.option-box ul li{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: aliceblue;
+  text-align: center;
+}
+.option-box figure{
+  width: 99%;
+    padding: .5%;
+}
+.option-box figure h4{
+  font-size: 25px;
+  font-weight: 700;
+  color: #e25a3c;
+  line-height: 45px;
+}
+.option-box figure p{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 12px;
+  line-height: 20px;
+}
+.inside-options{
+  margin: 9% 6% 7%;
+}
+/*=================================
+Third styling ends here
+=================================*/
 /* ******************************************************************************************************* */
 /*=================================
   main styling ends here
