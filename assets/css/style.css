@@ -620,6 +620,36 @@ color:#4b4b4b
   /*=================================
 Fourth styling ends here
 =================================*/
+/*=================================
+Fifth styling starts here
+=================================*/
+.companies .wrapper{
+  width: 100%;
+  display: flex;
+  margin: 50px auto;
+}
+.companies .all-companies{
+display: flex;
+gap: 10px;
+padding: 0px 1%;
+width: 100%;
+}
+
+ .all-companies::before {
+  content: "\3c";
+  font-family: "FontAwesome";
+  padding: 30px 7px;
+}
+
+.all-companies::after {
+  content: "\3e";
+  font-family: "FontAwesome";
+    padding: 30px 7px;
+} 
+/*=================================
+Fifth styling ends here
+=================================*/
+
 /* ******************************************************************************************************* */
 /*=================================
   main styling ends here
