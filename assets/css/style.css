@@ -908,7 +908,9 @@ footer a:hover::before {
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 375px) {
-
+/*=================================
+  header styling starts here
+=================================*/
   header .wrapper{
     display: flex;
     justify-content: space-between;
@@ -949,10 +951,10 @@ footer a:hover::before {
   color: #808080f5;
   margin: 0px 0 0px 24%;
 }
-/* .header-right ul{
-width: 20%;
-} */
-.wrapper .banner-down {
+/*=================================
+  header styling ends here
+=================================*/
+/* .wrapper .banner-down {
 background-color: #333b47;
 }
 
@@ -961,5 +963,5 @@ background-color: #333b47;
 }
 .banner img {
   height: 500px;
-}
+} */
 }
