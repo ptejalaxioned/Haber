@@ -546,6 +546,58 @@ Third styling starts here
 /*=================================
 Third styling ends here
 =================================*/
+/*=================================
+Fourth styling starts here
+=================================*/
+ 
+.box .wrapper{
+  width: 100%;
+  display: flex;
+}
+
+.boxes{
+  background-color: #4b4b4b;
+  color: aliceblue;
+  width: 50%;
+  padding: 5% 3%;
+}
+.boxes h3{
+  font-weight: 900;
+  font-size: 27px;
+}
+.box ul{
+padding: 20px 0px 30PX;
+}
+.box li{
+line-height: 37px;  
+display: flex;
+gap: 17px;
+}
+.box p{
+  line-height: 25px;
+}
+.orange-box{
+  background-color: #e25a3c;
+}
+.box li::before{
+  font-family: "FontAwesome";
+  content: "\f013";
+}
+
+.box li::first-letter {
+padding: 20px auto auto;
+}
+.box a{
+  color: aliceblue;
+  padding: 12px 14px;
+  border: 2px solid aliceblue;
+}
+.box .para-in-li::before{
+  content: none;
+}
+/*=================================
+Fourth styling ends here
+=================================*/
 /* ******************************************************************************************************* */
 /*=================================
   main styling ends here
