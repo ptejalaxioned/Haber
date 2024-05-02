@@ -649,7 +649,74 @@ width: 100%;
 /*=================================
 Fifth styling ends here
 =================================*/
+.contact{
+position: relative;
+}
+.contact .wrapper{
+width: 100%;
+}
+ .contact form{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
+  width: 90%;
+ margin: 44px 5%;
+} 
+.contact-parts{
+display: flex;
+justify-content: space-between;
 
+}
+
+.contact-info{
+  width: 70%;
+}
+textarea{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.39);
+  color: aliceblue;
+  border: 2px solid aliceblue;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26.5%;
+}
+.contact input{
+  width:100%;
+  height: 29px;
+  background-color: rgba(0, 0, 0, 0.39);
+  color: aliceblue;
+  border: 2px solid aliceblue;
+}
+.contact input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color:aliceblue;
+}
+form h4{
+text-align: center;
+font-size: 32px;
+color: aliceblue;
+font-weight: bolder;
+margin: 36px;
+text-shadow: 1.5px 1.5px black;
+}
+.contact-send{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.contact-send a{
+  padding: 12px 20px;
+  background-color: #e25a3c;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 7px 0;
+}
 /* ******************************************************************************************************* */
 /*=================================
   main styling ends here
