@@ -493,10 +493,10 @@ color: aliceblue;
 border-color: aliceblue ;
 }
 /*=================================
-Second styling ends here
+Second Section styling ends here
 =================================*/
 /*=================================
-Third styling starts here
+Third Section styling starts here
 =================================*/
 .options{
   background-color:#6398b838;
@@ -558,10 +558,10 @@ Third styling starts here
   margin: 9% 6% 7%;
 }
 /*=================================
-Third styling ends here
+Third Section styling ends here
 =================================*/
 /*=================================
-Fourth styling starts here
+Fourth Section styling starts here
 =================================*/
  
 .box .wrapper{
@@ -618,10 +618,10 @@ color:#4b4b4b
   color:#e25a3c;
 }  
   /*=================================
-Fourth styling ends here
+Fourth Section styling ends here
 =================================*/
 /*=================================
-Fifth styling starts here
+Fifth Section styling starts here
 =================================*/
 .companies .wrapper{
   width: 100%;
@@ -647,7 +647,11 @@ width: 100%;
     padding: 30px 7px;
 } 
 /*=================================
-Fifth styling ends here
+Fifth Section styling ends here
+=================================*/
+
+/*=================================
+Sixth Section styling starts here
 =================================*/
 .contact{
 position: relative;
@@ -717,7 +721,72 @@ text-shadow: 1.5px 1.5px black;
   font-weight: 900;
   margin: 7px 0;
 }
+/*=================================
+Sixth Section styling ends here
+=================================*/
+/*=================================
+Seventh Section styling starts here
+=================================*/
+.conpany-contact{
+background-color: #4b4b4b;
+}
+.conpany-contact .wrapper{
+ 
+ padding: 104px 34px;
+    width: 92%;
+    margin: auto;
+}
+.conpany-contact ul{
+  display: flex;
+  justify-content: space-between;
+}
+.conpany-contact  li{
+  width: 30%;
+  display: flex;
+  color: aliceblue;
+
+}
+.conpany-contact p{
+margin-left: 16px;
+display: flex;
+align-items: center;
+font-weight: bolder;
+}
+.phone p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.conpany-contact  li:before{
+
+  background-color: #e25a3c;
+  padding: 18px 20px;
+  border-radius: 72px;
+  border: 9px solid #7e7575;
+  font-size: 34px;
+}
+.conpany-contact .location::before{
+  content: "\f3c5";
+  font-family: "FontAwesome";
+   }
+   .conpany-contact .email::before{
+    content: "\f0e0";
+    font-family: "FontAwesome";
+     }
+     .conpany-contact  .phone::before{
+      content: "\f095";
+      font-family: "FontAwesome";
+       }
+/*=================================
+Seventh Section styling starts here
+=================================*/
+
 /* ******************************************************************************************************* */
+/* f095 call
+f0e0 email
+f3c5 loc */
 /*=================================
   main styling ends here
 =================================*/
