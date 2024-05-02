@@ -334,6 +334,12 @@ header .wrapper {
   font-size: 28px;
   padding-left: 10%;
 }
+.header-right a:hover{
+ color: #e25a3c;
+}
+.option-box p:hover::after {
+color:#e25a3c
+}
 /*=================================
   Header styling ends here
 =================================*/
@@ -402,6 +408,9 @@ text-align: center;
 .banner-right,.banner-left {
 text-align: center;
 margin: auto;
+}
+.banner-left a:hover::before ,.banner-right a:hover::before{
+color:#4b4b4b;
 }
 /*=================================
    First Section styling ends here
@@ -477,6 +486,11 @@ margin: 21px auto 18px;
   flex-direction: column;
   width: 20%;
   align-items: center;
+}
+.card a:HOVER {
+background-color: black;
+color: aliceblue;
+border-color: aliceblue ;
 }
 /*=================================
 Second styling ends here
@@ -595,7 +609,15 @@ padding: 20px auto auto;
 .box .para-in-li::before{
   content: none;
 }
-/*=================================
+.box a:HOVER{
+background-color: aliceblue;
+color:#4b4b4b
+}
+.orange-box a:hover
+{
+  color:#e25a3c;
+}  
+  /*=================================
 Fourth styling ends here
 =================================*/
 /* ******************************************************************************************************* */
