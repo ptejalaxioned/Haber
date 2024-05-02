@@ -982,4 +982,45 @@ footer a:hover::before {
 /*=================================
   First Section styling ends here
 =================================*/
+/*=================================
+  Second Section styling starts here
+=================================*/
+.card h3 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.card .wrapper {
+    width: 78%;
+    margin: 75px 11%;
+}
+
+.card ul {
+  flex-direction: column;
+  gap: 50px;
+}
+.card ul li {
+  width: 100%;
+}
+.card p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin: 12px 25px 18px;
+}
+.card h5::before {
+  padding: 30px 18px;
+  width: 30%;
+  font-size: 28px;
+}
+/*=================================
+  Second Section styling ends here
+=================================*/
+/*=================================
+  Third Section styling Starts here
+=================================*/
+/*=================================
+  Third Section styling ends here
+=================================*/
 }
