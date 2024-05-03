@@ -1101,7 +1101,24 @@ width: 100%;
 }
 .boxes {
   width: 80%;
-  padding: 10%;
+  padding: 52px 10%;
+}
+.box a{
+padding: 10px 10px;
+}
+.box a:HOVER{
+  background-color: #333b47;
+  color:aliceblue;
+  transition: none;
+  }
+  .orange-box a:hover
+  {
+    background-color: #e25a3c;
+    color:aliceblue;
+    transition: none;
+  }  
+  .box ul {
+    padding: 2px 0px 10PX;
 }
 /*=================================
   Fourth Section styling ends here
@@ -1149,7 +1166,7 @@ form h4 {
   Seventh Section styling starts here
 =================================*/
 .conpany-contact li {
-  width: 80%;
+  width: 100%;
 }
 .conpany-contact ul {
   justify-content: space-around;
@@ -1157,12 +1174,19 @@ form h4 {
   gap: 25px;
 }
 .conpany-contact .wrapper {
-  padding: 50px 5%;
-  width: 90%;
+  padding: 50px 10%;
+  width: 80%;
 }
 .conpany-contact li:before {
  font-size: 24px;
  padding: 15px 18px
+}
+.contact-send a {
+  padding: 10px 15px;
+}
+.contact-send a:hover {
+ background-color:#e25a3c ;
+ color: aliceblue;
 }
 /*=================================
   Seventh Section styling ends here
@@ -1185,9 +1209,11 @@ footer .wrapper {
 footer ul {
   font-size: 24px;
   margin: 7px 0px;
-  gap: 10px;
   justify-content: start;
-  gap: 15px;
+  gap: 7px;
+}
+.footer-up {
+   gap: 0px; 
 }
 /*=================================
   Footer Section styling ends here
