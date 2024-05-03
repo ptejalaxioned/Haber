@@ -511,7 +511,7 @@ Third Section styling starts here
 }
 .options .wrapper{
   width: 92%;
-  padding: 81px 0px 60px;
+  padding: 75px 0px 60px;
 }
 .options h3{
   text-align: center;
@@ -840,8 +840,7 @@ footer p{
 font-size: 14px;
 margin-bottom: 7px;
 }
-.footer-left{
-}
+
 
 footer a::before {
   float: right;
@@ -1013,7 +1012,7 @@ display: block;
 
 .card .wrapper {
     width: 78%;
-    margin: 40px 11%;
+    margin: 52px 11%;
 } 
 
 .card ul {
@@ -1072,13 +1071,21 @@ width: 100%;
 }
 .options p {
   font-size: 14px;
-  margin: 19px 24px 26px;
+  margin: 10px 24px 16px;
 }
 .option-box figure h4 {
   font-size: 23px;
 }
 .option-box figure p {
   font-size: 11px;
+}
+.options .wrapper{
+  padding: 52px 0px 60px;
+}
+
+.option-box p:hover::after {
+  color:#333b47;
+  transition: none;
 }
 /*=================================
   Third Section styling ends here
@@ -1101,7 +1108,7 @@ width: 100%;
 =================================*/
 .companies{
   display: none;
-  }
+}
 /*=================================
   Fifth Section styling starts here
 =================================*/
