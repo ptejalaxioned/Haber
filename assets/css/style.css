@@ -1206,6 +1206,10 @@ form h4 {
  background-color:#e25a3c ;
  color: aliceblue;
 }
+ 
+.contact .wrapper {
+  position: relative;
+}
 
 /*=================================
   Sixth Section styling ends here
