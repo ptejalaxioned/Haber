@@ -1564,5 +1564,32 @@ footer ul {
   /*=================================
     Sixth Section styling ends here
   =================================*/
+  /*=================================
+    Seventh Section styling starts here
+  =================================*/
+  .conpany-contact li {
+    width: 100%;
+  }
+  .conpany-contact ul {
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .conpany-contact .wrapper {
+    width: 80%;
+    padding: 30px 10%;
+  }
+  .conpany-contact li:before {
+   font-size: 24px;
+   padding: 15px 18px
+  }
+  .conpany-contact li:hover:before {
+    background-color:#e25a3c;
+    color: aliceblue;
+    transition: none;
+   }
+  /*=================================
+    Seventh Section styling ends here
+  =================================*/
 
   }
