@@ -749,6 +749,9 @@ background-color: aliceblue;
 color: #e25a3c;
 transition: .3s;
 }
+.contact .wrapper {
+  position: relative;
+}
 /*=================================
 Sixth Section styling ends here
 =================================*/
@@ -1206,10 +1209,10 @@ form h4 {
  background-color:#e25a3c ;
  color: aliceblue;
 }
- 
 .contact .wrapper {
   position: relative;
 }
+
 
 /*=================================
   Sixth Section styling ends here
@@ -1270,3 +1273,101 @@ footer ul {
   Footer Section styling ends here
 =================================*/
 }
+
+
+@media only screen and (max-width: 480px) {
+  /*=================================
+    header styling starts here
+  =================================*/
+    header .wrapper{
+      display: flex;
+      justify-content: space-between;
+    }
+    .header-center {
+      display:flex;
+      order: 3;
+      width: 10%;
+  }
+  .navbar{
+    display:none;
+  }
+  .header-center ul{
+    display:none;
+  }
+  
+   .header-left{
+    width: 33%;
+    height: 50px;
+    order: 1;
+  }
+  .header-left h1 a {
+    font-size: 25px;
+  }
+  .header-left h1::before {
+    font-size: 25px;
+  }
+  .header-left span {
+    font-size: 8px;
+    margin-left: 10px;
+    display: none;
+  }
+  .header-right{
+    width: 47%;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    order: 2;
+  }
+  .header-right ul{
+      display: flex;
+      justify-content: space-around;
+      width: 70%;
+      margin-left: 20px;
+  }
+  .header-right a::before{
+    font-size: 16px;
+  }
+  .header-right a:hover{
+    color: #808080f5;
+    transition: none;
+   }
+   .header-center a:hover{
+    color: #808080f5;
+    transition: none;
+   }
+  
+   .header-center::after{
+    position: relative;
+    content:"\f0c9" ;
+    font-family: "FontAwesome";
+    color: #808080f5;
+    margin: 0px 0 0px 24%;
+   }
+  
+  .navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 92%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e25a3c;
+    z-index: 10;
+  }
+  
+  .navbar li {
+    padding: 10px 0;
+    color: #fff;
+  }
+  
+  .header-center:hover .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     }
+  /*=================================
+    header styling ends here
+  =================================*/
+    }
