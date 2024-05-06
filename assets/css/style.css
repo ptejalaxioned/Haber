@@ -1445,5 +1445,44 @@ footer ul {
   /*=================================
     Second Section styling ends here
   =================================*/
+  /*=================================
+    Third Section styling Starts here
+  =================================*/
+  .option-box ul {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .option1{
+  width: 100%;
+  }
+  .option-box ul li {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .inside-options {
+    margin: 4% 6% 4%;
+  }
+  .options h3 {
+    font-size: 30px;
+  }
+  .options p {
+    font-size: 14px;
+    margin: 10px 24px 16px;
+  }
+  .option-box figure h4 {
+    font-size: 23px;
+  }
+  .option-box figure p {
+    font-size: 11px;
+  }
+  .options .wrapper{
+    padding: 52px 0px 60px;
+  }
+  
+  .option-box p:hover::after {
+    color:#333b47;
+    transition: none;
+  }
 
     }
