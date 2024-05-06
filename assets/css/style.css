@@ -1626,3 +1626,105 @@ footer ul {
   }
 
   }
+
+  @media only screen and (max-width: 640px) {
+    /*=================================
+      header styling starts here
+    =================================*/
+      header .wrapper{
+        display: flex;
+        justify-content: space-between;
+      }
+      .header-center {
+        display:flex;
+        order: 3;
+        width: 5%;
+    }
+    .navbar{
+      display:none;
+    }
+    .header-center ul{
+      display:none;
+    }
+    
+    .header-left {
+      width: 26%;
+      height: 58px;
+      order: 1;
+  }
+    .header-left h1 a {
+      font-size: 27px;
+    }
+    .header-left h1::before {
+      font-size: 28px;
+    }
+    .header-left span {
+      font-size: 8px;
+      margin-left: 10px;
+      display: none;
+    }
+    .header-right{
+      width: 47%;
+      padding-left: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      order: 2;
+    }
+    .header-right ul{
+        display: flex;
+        justify-content: space-around;
+        width: 58%;
+        margin-left: 121px;
+    }
+     
+    .header-right a::before {
+      font-size: 19px;
+  }
+    .header-right a:hover{
+      color: #808080f5;
+      transition: none;
+     }
+     .header-center a:hover{
+      color: #808080f5;
+      transition: none;
+     }
+    
+     .header-center::after{
+      position: relative;
+      content:"\f0c9" ;
+      font-family: "FontAwesome";
+      color: #808080f5;
+      margin: 0px 0 0px 24%;
+     }
+    
+    .navbar {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 92%;
+      right: 0%;
+      display: flex;
+      flex-direction: column;
+      background-color: #e25a3c;
+      z-index: 10;
+    }
+    
+    .navbar li {
+      padding: 10px 0;
+      color: #fff;
+    }
+    
+    .header-center:hover .navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       }
+       .header-center, .header-right {
+        font-size: 19px;
+    }
+    /*=================================
+      header styling ends here
+    =================================*/
+
+  }
