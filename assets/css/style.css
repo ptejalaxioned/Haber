@@ -1398,5 +1398,52 @@ footer ul {
   /*=================================
     First Section styling ends here
   =================================*/
+  /*=================================
+    Second Section styling starts here
+  =================================*/
+  .card h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  .card .wrapper {
+      width: 78%;
+      margin: 52px 11%;
+  } 
+  
+  .card ul {
+    flex-direction: column;
+    gap: 35px;
+    margin: 35px auto auto;
+  }
+  .card ul li {
+    width: 100%;
+  }
+  .card p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 6px 25px 12px;
+  }
+  .card h5::before {
+    font-size: 28px;
+    padding: 20px 16px;
+    width: 17%;
+    margin-bottom: 12px;
+}
+  .card a:HOVER {
+    background-color:white;
+    color: #333b47;
+    border-color: #333b47;
+    transition: none;
+    }
+    .card a{
+    font-size: 13px;
+    padding: 10px 7px;
+    }
+  /*=================================
+    Second Section styling ends here
+  =================================*/
 
     }
