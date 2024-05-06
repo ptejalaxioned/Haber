@@ -1484,5 +1484,38 @@ footer ul {
     color:#333b47;
     transition: none;
   }
-
+ /*=================================
+    Fourth Section styling starts here
+  =================================*/
+  .box .wrapper {
+    flex-direction: column;
+  }
+  .boxes {
+    width: 100%;
+  }
+  .boxes {
+    width: 80%;
+    padding: 52px 10%;
+  }
+  .box a{
+  padding: 10px 10px;
+  }
+  .box a:HOVER{
+    background-color: #333b47;
+    color:aliceblue;
+    transition: none;
     }
+    .orange-box a:hover
+    {
+      background-color: #e25a3c;
+      color:aliceblue;
+      transition: none;
+    }  
+    .box ul {
+      padding: 2px 0px 10PX;
+  }
+  /*=================================
+    Fourth Section styling ends here
+  =================================*/
+
+  }
