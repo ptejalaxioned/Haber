@@ -1877,5 +1877,13 @@ footer ul {
   /*=================================
     Fourth Section styling ends here
   =================================*/
-
+    /*=================================
+    Fifth Section styling starts here
+  =================================*/
+  .companies{
+    display: none;
+  }
+  /*=================================
+    Fifth Section styling ends here
+  =================================*/
   }
