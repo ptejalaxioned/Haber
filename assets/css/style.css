@@ -1517,5 +1517,52 @@ footer ul {
   /*=================================
     Fourth Section styling ends here
   =================================*/
+  .companies{
+    display: none;
+  }
+  /*=================================
+    Fifth Section styling starts here
+  =================================*/
+  /*=================================
+    Sixth Section styling ends here
+  =================================*/
+  .contact img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+  .contact form {
+    margin: 0px 5%;
+  }
+  .contact-parts {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .input-box {
+    width: 80%;
+    gap: 10px;
+  }
+  .contact-info {
+    width: 80%;
+  }
+  form h4 {
+    margin: 40px 0px 26px;
+  }
+  .contact-send {
+    justify-content: center;
+    margin: 11px 0px;
+  }
+  .contact-send a {
+    padding: 10px 15px;
+  }
+  .contact-send a:hover {
+   background-color:#e25a3c ;
+   color: aliceblue;
+  }
+  
+  /*=================================
+    Sixth Section styling ends here
+  =================================*/
 
   }
