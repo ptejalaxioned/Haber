@@ -214,10 +214,10 @@ body {
 }
 
 header {
-  background-color:#333b47;
+  background-color: #333b47;
   position: absolute;
- width: 100%;
-  top:0%;
+  width: 100%;
+  top: 0%;
   z-index: 2;
 }
 
@@ -265,6 +265,7 @@ header .wrapper {
   display: flex;
   justify-content: space-between;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -330,6 +331,7 @@ header .wrapper {
 .header-right a {
   color: #808080f5;
 }
+
 .header-center a:hover {
   color: #e25a3c;
   transition: .3s;
@@ -341,16 +343,20 @@ header .wrapper {
   padding-left: 10%;
 }
 
-.header-right a:hover{
- color: #e25a3c;
- transition: .3s;
+.header-right a:hover {
+  color: #e25a3c;
+  transition: .3s;
 }
+
 .option-box p:hover::after {
-color:#e25a3c;
-transition: .3s;}
-.header-center{
-display: block;
+  color: #e25a3c;
+  transition: .3s;
 }
+
+.header-center {
+  display: block;
+}
+
 /*=================================
   Header styling ends here
 =================================*/
@@ -361,28 +367,30 @@ display: block;
 /*=================================
   First Section styling starts here
 =================================*/
-.banner .wrapper{
-  width:100%;
+.banner .wrapper {
+  width: 100%;
   position: relative;
 }
-.banner img{
+
+.banner img {
   position: relative;
 }
-.wrapper .banner-down{
-background-color: #e25a3c;
-display: flex;
-justify-content: space-between;
-margin: auto;
-width: 54%;
-color:aliceblue ;
-font-size: 36px;
-    font-weight: 900;
-padding: 25px 10px;
-position: absolute;
-bottom: 0%;
-left: 23%;
-z-index: 1;
-/* transform: translate(-50%, -50%) */
+
+.wrapper .banner-down {
+  background-color: #e25a3c;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 54%;
+  color: aliceblue;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 25px 10px;
+  position: absolute;
+  bottom: 0%;
+  left: 23%;
+  z-index: 1;
+  /* transform: translate(-50%, -50%) */
 }
 
 .banner-left a::before {
@@ -391,13 +399,15 @@ z-index: 1;
   font-family: "FontAwesome";
 
 }
+
 .banner-right a::before {
   float: right;
   text-indent: 0;
   font-family: "FontAwesome";
 }
 
-.banner-left a ,.banner-right a{
+.banner-left a,
+.banner-right a {
   text-indent: -9999px;
   float: left;
   color: aliceblue;
@@ -409,139 +419,164 @@ z-index: 1;
   content: "\3c";
 }
 
- .banner-right .right-arrow::before {
+.banner-right .right-arrow::before {
   content: "\3e";
-} 
-.banner-center{
-width: 80%;
-text-align: center;
 }
-.banner-right,.banner-left {
-text-align: center;
-margin: auto;
+
+.banner-center {
+  width: 80%;
+  text-align: center;
 }
-.banner-left a:hover::before ,.banner-right a:hover::before{
-color:#333b47;
-transition: .3s;
+
+.banner-right,
+.banner-left {
+  text-align: center;
+  margin: auto;
 }
+
+.banner-left a:hover::before,
+.banner-right a:hover::before {
+  color: #333b47;
+  transition: .3s;
+}
+
 /*=================================
    First Section styling ends here
 =================================*/
 /*=================================
    Second Section styling starts here
 =================================*/
-.card h3{
+.card h3 {
   font-size: 38px;
   text-align: center;
   font-weight: 900;
 }
-.card .wrapper{
+
+.card .wrapper {
   width: 92%;
   margin: 75px 4%;
 }
-.card h5{
+
+.card h5 {
   text-align: center;
   width: 55%;
   line-height: 23px;
   font-weight: 700;
 }
-.card p{
-font-size: 12px;
-line-height: 20px;
-text-align: center;
-margin: 21px auto 18px;
+
+.card p {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin: 21px auto 18px;
 }
-.card a{
+
+.card a {
   color: #333b47;
   font-size: 14px;
   padding: 15px 10px;
-  border:1px solid grey;
+  border: 1px solid grey;
   font-weight: 900;
 }
-.card h5::before{
+
+.card h5::before {
   display: block;
   padding: 20px;
   background-color: #e25a3c;
   text-align: center;
   width: 20%;
-    margin: auto;
-    border-radius: 77px;
-    font-size: 27px;
-    color: aliceblue;
-    margin-bottom: 20px;
-    height: 25px;
+  margin: auto;
+  border-radius: 77px;
+  font-size: 27px;
+  color: aliceblue;
+  margin-bottom: 20px;
+  height: 25px;
 }
-.card .card1 h5::before{
+
+.card .card1 h5::before {
   font-family: "FontAwesome";
   content: "\f09d";
 }
-.card .card2 h5::before{
+
+.card .card2 h5::before {
   font-family: "FontAwesome";
   content: "\f080";
-  
+
 }
-.card .card3 h5::before{
+
+.card .card3 h5::before {
   font-family: "FontAwesome";
   content: "\24";
 }
-.card .card4 h5::before{
+
+.card .card4 h5::before {
   font-family: "FontAwesome";
   content: "\f0ac";
 }
+
 .card ul {
   display: flex;
-  justify-content:space-between ;
+  justify-content: space-between;
   margin: 40px auto auto;
 }
-.card ul li{
+
+.card ul li {
   display: flex;
   flex-direction: column;
   width: 20%;
   align-items: center;
 }
+
 .card a:HOVER {
-background-color:#333b47;
-color: aliceblue;
-border-color: aliceblue ;
-transition: .3s;
+  background-color: #333b47;
+  color: aliceblue;
+  border-color: aliceblue;
+  transition: .3s;
 }
+
 /*=================================
 Second Section styling ends here
 =================================*/
 /*=================================
 Third Section styling starts here
 =================================*/
-.options{
-  background-color:#6398b838;
+.options {
+  background-color: #6398b838;
 }
-.options .wrapper{
+
+.options .wrapper {
   width: 92%;
   padding: 75px 0px 60px;
 }
-.options h3{
+
+.options h3 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
 
 }
-.options p{
+
+.options p {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 27px;
   margin: 24px 24px 37px;
 }
-.option-box p::after{
+
+.option-box p::after {
   font-family: "FontAwesome";
   content: "\f0a9";
   font-size: 20px;
   padding: 13px 0px 0px;
 }
-.option-box ul{
+
+.option-box ul {
   display: flex;
   justify-content: space-between;
 }
-.option-box ul li{
+
+.option-box ul li {
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -550,107 +585,123 @@ Third Section styling starts here
   background-color: aliceblue;
   text-align: center;
 }
-.option-box figure{
+
+.option-box figure {
   width: 99%;
-    padding: .5%;
+  padding: .5%;
 }
-.option-box figure h4{
+
+.option-box figure h4 {
   font-size: 25px;
   font-weight: 700;
   color: #e25a3c;
   line-height: 45px;
 }
-.option-box figure p{
+
+.option-box figure p {
   display: flex;
   flex-direction: column;
   margin: auto;
   font-size: 12px;
   line-height: 20px;
 }
-.inside-options{
+
+.inside-options {
   margin: 9% 6% 7%;
 }
+
 /*=================================
 Third Section styling ends here
 =================================*/
 /*=================================
 Fourth Section styling starts here
 =================================*/
- 
-.box .wrapper{
+
+.box .wrapper {
   width: 100%;
   display: flex;
 }
 
-.boxes{
+.boxes {
   background-color: #333b47;
   color: aliceblue;
   width: 50%;
   padding: 5% 3%;
 }
-.boxes h3{
+
+.boxes h3 {
   font-weight: 900;
   font-size: 27px;
 }
-.box ul{
-padding: 20px 0px 30PX;
+
+.box ul {
+  padding: 20px 0px 30PX;
 }
-.box li{
-line-height: 37px;  
-display: flex;
-gap: 17px;
+
+.box li {
+  line-height: 37px;
+  display: flex;
+  gap: 17px;
 }
-.box p{
+
+.box p {
   line-height: 25px;
 }
-.orange-box{
+
+.orange-box {
   background-color: #e25a3c;
 }
-.box li::before{
+
+.box li::before {
   font-family: "FontAwesome";
   content: "\f013";
 }
 
 .box li::first-letter {
-padding: 20px auto auto;
+  padding: 20px auto auto;
 }
-.box a{
+
+.box a {
   color: aliceblue;
   padding: 12px 14px;
   border: 2px solid aliceblue;
 }
-.box .para-in-li::before{
+
+.box .para-in-li::before {
   content: none;
 }
-.box a:HOVER{
-background-color: aliceblue;
-color:#333b47;
-transition: .3s;
-}
-.orange-box a:hover
-{
-  color:#e25a3c;
+
+.box a:HOVER {
+  background-color: aliceblue;
+  color: #333b47;
   transition: .3s;
-}  
-  /*=================================
+}
+
+.orange-box a:hover {
+  color: #e25a3c;
+  transition: .3s;
+}
+
+/*=================================
 Fourth Section styling ends here
 =================================*/
 /*=================================
 Fifth Section styling starts here
 =================================*/
-.companies .wrapper{
+.companies .wrapper {
   width: 100%;
   display: flex;
   margin: 50px auto;
 }
-.companies .all-companies{
-display: flex;
-gap: 10px;
-padding: 0px 1%;
-width: 100%;
+
+.companies .all-companies {
+  display: flex;
+  gap: 10px;
+  padding: 0px 1%;
+  width: 100%;
 }
 
- .all-companies::before {
+.all-companies::before {
   content: "\3c";
   font-family: "FontAwesome";
   padding: 30px 7px;
@@ -659,12 +710,14 @@ width: 100%;
 .all-companies::after {
   content: "\3e";
   font-family: "FontAwesome";
-    padding: 30px 7px;
-} 
-.all-companies:hover:before {
-color: #e25a3c;
-transition: .3s;
+  padding: 30px 7px;
 }
+
+.all-companies:hover:before {
+  color: #e25a3c;
+  transition: .3s;
+}
+
 /*=================================
 Fifth Section styling ends here
 =================================*/
@@ -672,67 +725,77 @@ Fifth Section styling ends here
 /*=================================
 Sixth Section styling starts here
 =================================*/
-.contact{
-position: relative;
+.contact {
+  position: relative;
 }
-.contact .wrapper{
-width: 100%;
+
+.contact .wrapper {
+  width: 100%;
 }
- .contact form{
+
+.contact form {
   position: absolute;
   left: 0%;
   top: 0%;
   z-index: 2;
   width: 90%;
- margin: 27px 5%;
-} 
-.contact-parts{
-display: flex;
-gap: 34px;
+  margin: 27px 5%;
 }
 
-.contact-info{
+.contact-parts {
+  display: flex;
+  gap: 34px;
+}
+
+.contact-info {
   width: 65%;
 }
-textarea{
+
+textarea {
   width: 100%;
   background-color: #31314580;
   color: aliceblue;
   border: 2px solid aliceblue;
-  resize: none; 
+  resize: none;
 }
-.input-box{
+
+.input-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 31.5%;
 }
-.contact input{
-  width:100%;
+
+.contact input {
+  width: 100%;
   height: 33px;
   background-color: #31314580;
   color: aliceblue;
   border: 2px solid aliceblue;
 }
+
 .contact input::placeholder {
   font-weight: bold;
   opacity: 0.5;
-  color:aliceblue;
+  color: aliceblue;
 }
-form h4{
-text-align: center;
-font-size: 32px;
-color: aliceblue;
-font-weight: bolder;
-margin: 36px;
-text-shadow: 1.5px 1.5px #333b47;
+
+form h4 {
+  text-align: center;
+  font-size: 32px;
+  color: aliceblue;
+  font-weight: bolder;
+  margin: 36px;
+  text-shadow: 1.5px 1.5px #333b47;
 }
-.contact-send{
+
+.contact-send {
   display: flex;
   justify-content: end;
   width: 100%;
 }
-.contact-send a{
+
+.contact-send a {
   padding: 12px 20px;
   background-color: #e25a3c;
   color: aliceblue;
@@ -740,57 +803,65 @@ text-shadow: 1.5px 1.5px #333b47;
   font-weight: 900;
   margin: 7px 0;
 }
-.msg{
+
+.msg {
   width: 100%;
 }
 
 .contact-send a:hover {
-background-color: aliceblue;
-color: #e25a3c;
-transition: .3s;
+  background-color: aliceblue;
+  color: #e25a3c;
+  transition: .3s;
 }
+
 .contact .wrapper {
   position: relative;
 }
+
 /*=================================
 Sixth Section styling ends here
 =================================*/
 /*=================================
 Seventh Section styling starts here
 =================================*/
-.conpany-contact{
-background-color:#3d4c60f0;
+.conpany-contact {
+  background-color: #3d4c60f0;
 }
-.conpany-contact .wrapper{
- 
- padding: 104px 34px;
-    width: 92%;
-    margin: auto;
+
+.conpany-contact .wrapper {
+
+  padding: 104px 34px;
+  width: 92%;
+  margin: auto;
 }
-.conpany-contact ul{
+
+.conpany-contact ul {
   display: flex;
   justify-content: space-between;
 }
-.conpany-contact  li{
+
+.conpany-contact li {
   width: 30%;
   display: flex;
   color: aliceblue;
 
 }
-.conpany-contact p{
-margin-left: 16px;
-display: flex;
-align-items: center;
-font-weight: bolder;
+
+.conpany-contact p {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
 }
-.phone p{
+
+.phone p {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
 
-.conpany-contact  li:before{
+.conpany-contact li:before {
 
   background-color: #e25a3c;
   padding: 18px 20px;
@@ -798,23 +869,28 @@ font-weight: bolder;
   border: 9px solid #7e7575;
   font-size: 34px;
 }
-.conpany-contact .location::before{
+
+.conpany-contact .location::before {
   content: "\f3c5";
   font-family: "FontAwesome";
-   }
-   .conpany-contact .email::before{
-    content: "\f0e0";
-    font-family: "FontAwesome";
-     }
-     .conpany-contact  .phone::before{
-      content: "\f095";
-      font-family: "FontAwesome";
-       }
+}
+
+.conpany-contact .email::before {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+}
+
+.conpany-contact .phone::before {
+  content: "\f095";
+  font-family: "FontAwesome";
+}
+
 .conpany-contact li:hover:before {
-       background-color:aliceblue;
-       color: #e25a3c;
-       transition: .3s;
-      }     
+  background-color: aliceblue;
+  color: #e25a3c;
+  transition: .3s;
+}
+
 /*=================================
 Seventh Section styling starts here
 =================================*/
@@ -825,28 +901,32 @@ Seventh Section styling starts here
 /*=================================
   footer styling starts here
 =================================*/
-footer{
+footer {
   background-color: #333b47;
 }
-footer .wrapper{
+
+footer .wrapper {
   display: flex;
   justify-content: space-between;
   width: 90%;
   color: aliceblue;
   padding: 5% 5% 173px;
 }
-footer h2{
-font-size: 32px;
-font-weight: bolder;
+
+footer h2 {
+  font-size: 32px;
+  font-weight: bolder;
 }
+
 .footer-up {
   display: flex;
   align-items: end;
   gap: 10px;
 }
-footer p{
-font-size: 14px;
-margin-bottom: 7px;
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 7px;
 }
 
 
@@ -854,11 +934,13 @@ footer a::before {
   float: right;
   text-indent: 0;
   font-family: "FontAwesome";
-  color:#e25a3c;
+  color: #e25a3c;
 }
-.footer-left{
+
+.footer-left {
   width: 26%;
 }
+
 footer a {
   text-indent: -9999px;
   float: left;
@@ -883,9 +965,11 @@ footer .facebook2::before {
 footer .google2::before {
   content: "\f1a0";
 }
+
 footer .t::before {
   content: "\f174";
 }
+
 .header-right {
   font-size: 14px;
   text-align: center;
@@ -899,419 +983,67 @@ footer ul {
   display: flex;
   justify-content: space-between;
 }
+
 footer a:hover::before {
- color:aliceblue;
- transition: .3s;
+  color: aliceblue;
+  transition: .3s;
 }
 
-.footer-right{
+.footer-right {
   width: 50%;
 }
+
 /*=================================
   footer styling ends here
 =================================*/
 
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 375px) {
-/*=================================
-  header styling starts here
-=================================*/
-  header .wrapper{
-    display: flex;
-    justify-content: space-between;
-  }
-  .header-center {
-    display:flex;
-    order: 3;
-    width: 10%;
-}
-.navbar{
-  display:none;
-}
-.header-center ul{
-  display:none;
-}
-
- .header-left{
-  width: 33%;
-  height: 50px;
-  order: 1;
-}
-.header-left h1 a {
-  font-size: 25px;
-}
-.header-left h1::before {
-  font-size: 25px;
-}
-.header-left span {
-  font-size: 8px;
-  margin-left: 10px;
-  display: none;
-}
-.header-right{
-  width: 47%;
-  padding-left: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  order: 2;
-}
-.header-right ul{
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    margin-left: 20px;
-}
-.header-right a::before{
-  font-size: 16px;
-}
-.header-right a:hover{
-  color: #808080f5;
-  transition: none;
- }
- .header-center a:hover{
-  color: #808080f5;
-  transition: none;
- }
-
- .header-center::after{
-  position: relative;
-  content:"\f0c9" ;
-  font-family: "FontAwesome";
-  color: #808080f5;
-  margin: 0px 0 0px 24%;
- }
-
-/* .header-right ul::after{
-  content:"\f0c9" ;
-  font-family: "FontAwesome";
-  color: #808080f5;
-
-  margin: 0px 0 0px 24%;
-} */
-
-.navbar {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 92%;
-  right: 0%;
-  display: flex;
-  flex-direction: column;
-  background-color: #e25a3c;
-  z-index: 10;
-}
-
-.navbar li {
-  padding: 10px 0;
-  color: #fff;
-}
-
-.header-center:hover .navbar{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-   }
-/*=================================
-  header styling ends here
-=================================*/
-/*=================================
-  First Section styling starts here
-=================================*/
-.banner{
-  position: relative;
-  height: 320px;
-}
-
-.banner img {
-  object-fit: cover;
-  width: 100%;
-  height: 320px;
-}
-.wrapper .banner-down {
-  width: 74%;
-  font-size: 18px;
-  position: absolute;
-  bottom: 0%;
-  left: 10%;
-  padding: 5px 2%;
-  gap: 2%;
-}
-.banner-left a, .banner-right a {
-  font-size: 15px;
-}
-/*=================================
-  First Section styling ends here
-=================================*/
-/*=================================
-  Second Section styling starts here
-=================================*/
-.card h3 {
-  font-size: 24px;
-  text-align: center;
-  font-weight: 900;
-}
-
-.card .wrapper {
-    width: 78%;
-    margin: 52px 11%;
-} 
-
-.card ul {
-  flex-direction: column;
-  gap: 35px;
-  margin: 35px auto auto;
-}
-.card ul li {
-  width: 100%;
-}
-.card p {
-  font-size: 12px;
-  line-height: 20px;
-  text-align: center;
-  margin: 6px 25px 12px;
-}
-.card h5::before {
-  font-size: 28px;
-  padding: 20px 18px;
-  width: 18%;
-  margin-bottom: 12px;
-}
-.card a:HOVER {
-  background-color:white;
-  color: #333b47;
-  border-color: #333b47;
-  transition: none;
-  }
-  .card a{
-  font-size: 13px;
-  padding: 10px 7px;
-  }
-/*=================================
-  Second Section styling ends here
-=================================*/
-/*=================================
-  Third Section styling Starts here
-=================================*/
-.option-box ul {
-  flex-direction: column;
-  gap: 25px;
-}
-.option1{
-width: 100%;
-}
-.option-box ul li {
-  width: 80%;
-  margin: auto;
-}
-
-.inside-options {
-  margin: 4% 6% 4%;
-}
-.options h3 {
-  font-size: 30px;
-}
-.options p {
-  font-size: 14px;
-  margin: 10px 24px 16px;
-}
-.option-box figure h4 {
-  font-size: 23px;
-}
-.option-box figure p {
-  font-size: 11px;
-}
-.options .wrapper{
-  padding: 52px 0px 60px;
-}
-
-.option-box p:hover::after {
-  color:#333b47;
-  transition: none;
-}
-/*=================================
-  Third Section styling ends here
-=================================*/
-/*=================================
-  Fourth Section styling starts here
-=================================*/
-.box .wrapper {
-  flex-direction: column;
-}
-.boxes {
-  width: 100%;
-}
-.boxes {
-  width: 80%;
-  padding: 52px 10%;
-}
-.box a{
-padding: 10px 10px;
-}
-.box a:HOVER{
-  background-color: #333b47;
-  color:aliceblue;
-  transition: none;
-  }
-  .orange-box a:hover
-  {
-    background-color: #e25a3c;
-    color:aliceblue;
-    transition: none;
-  }  
-  .box ul {
-    padding: 2px 0px 10PX;
-}
-/*=================================
-  Fourth Section styling ends here
-=================================*/
-.companies{
-  display: none;
-}
-/*=================================
-  Fifth Section styling starts here
-=================================*/
-/*=================================
-  Sixth Section styling ends here
-=================================*/
-.contact img {
-  object-fit: cover;
-  width: 100%;
-  height: 500px;
-}
-.contact form {
-  margin: 0px 5%;
-}
-.contact-parts {
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-}
-.input-box {
-  width: 80%;
-  gap: 10px;
-}
-.contact-info {
-  width: 80%;
-}
-form h4 {
-  margin: 40px 0px 26px;
-}
-.contact-send {
-  justify-content: center;
-  margin: 11px 0px;
-}
-.contact-send a {
-  padding: 10px 15px;
-}
-.contact-send a:hover {
- background-color:#e25a3c ;
- color: aliceblue;
-}
-.contact .wrapper {
-  position: relative;
-}
-
-
-/*=================================
-  Sixth Section styling ends here
-=================================*/
-/*=================================
-  Seventh Section styling starts here
-=================================*/
-.conpany-contact li {
-  width: 100%;
-}
-.conpany-contact ul {
-  justify-content: space-around;
-  flex-direction: column;
-  gap: 25px;
-}
-.conpany-contact .wrapper {
-  width: 80%;
-  padding: 30px 10%;
-}
-.conpany-contact li:before {
- font-size: 24px;
- padding: 15px 18px
-}
-.conpany-contact li:hover:before {
-  background-color:#e25a3c;
-  color: aliceblue;
-  transition: none;
- }
-/*=================================
-  Seventh Section styling ends here
-=================================*/
-/*=================================
-  Footer Section styling starts here
-=================================*/
-footer .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 5% 5% 66px;
-  gap: 15px;
-}
-.footer-right {
-  width: 100%;
-}
-.footer-left {
-  width: 78%;
-}
-footer ul {
-  font-size: 24px;
-  margin: 0px 0px;
-  justify-content: start;
-  gap: 7px;
-}
-.footer-up {
-   gap: 0px; 
-}
-/*=================================
-  Footer Section styling ends here
-=================================*/
-}
 
 
 @media only screen and (max-width: 480px) {
+
   /*=================================
     header styling starts here
   =================================*/
-    header .wrapper{
-      display: flex;
-      justify-content: space-between;
-    }
-    .header-center {
-      display:flex;
-      order: 3;
-      width: 10%;
+  header .wrapper {
+    display: flex;
+    justify-content: space-between;
   }
-  .navbar{
-    display:none;
+
+  .header-center {
+    display: flex;
+    order: 3;
+    width: 10%;
   }
-  .header-center ul{
-    display:none;
+
+  .navbar {
+    display: none;
   }
-  
-   .header-left{
+
+  .header-center ul {
+    display: none;
+  }
+
+  .header-left {
     width: 33%;
     height: 50px;
     order: 1;
   }
+
   .header-left h1 a {
     font-size: 25px;
   }
+
   .header-left h1::before {
     font-size: 25px;
   }
+
   .header-left span {
     font-size: 8px;
     margin-left: 10px;
     display: none;
   }
-  .header-right{
+
+  .header-right {
     width: 47%;
     padding-left: 0;
     display: flex;
@@ -1319,32 +1051,36 @@ footer ul {
     width: 50%;
     order: 2;
   }
-  .header-right ul{
-      display: flex;
-      justify-content: space-around;
-      width: 70%;
-      margin-left: 20px;
+
+  .header-right ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 20px;
   }
-  .header-right a::before{
+
+  .header-right a::before {
     font-size: 16px;
   }
-  .header-right a:hover{
+
+  .header-right a:hover {
     color: #808080f5;
     transition: none;
-   }
-   .header-center a:hover{
+  }
+
+  .header-center a:hover {
     color: #808080f5;
     transition: none;
-   }
-  
-   .header-center::after{
+  }
+
+  .header-center::after {
     position: relative;
-    content:"\f0c9" ;
+    content: "\f0c9";
     font-family: "FontAwesome";
     color: #808080f5;
     margin: 0px 0 0px 24%;
-   }
-  
+  }
+
   .navbar {
     width: 100%;
     height: 100vh;
@@ -1356,33 +1092,35 @@ footer ul {
     background-color: #e25a3c;
     z-index: 10;
   }
-  
+
   .navbar li {
     padding: 10px 0;
     color: #fff;
   }
-  
-  .header-center:hover .navbar{
+
+  .header-center:hover .navbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
-     }
+  }
+
   /*=================================
     header styling ends here
   =================================*/
-    /*=================================
+  /*=================================
     First Section styling starts here
   =================================*/
-  .banner{
+  .banner {
     position: relative;
     height: 320px;
   }
-  
+
   .banner img {
     object-fit: cover;
     width: 100%;
     height: 320px;
   }
+
   .wrapper .banner-down {
     width: 74%;
     font-size: 18px;
@@ -1392,9 +1130,12 @@ footer ul {
     padding: 5px 2%;
     gap: 2%;
   }
-  .banner-left a, .banner-right a {
+
+  .banner-left a,
+  .banner-right a {
     font-size: 15px;
   }
+
   /*=================================
     First Section styling ends here
   =================================*/
@@ -1406,42 +1147,48 @@ footer ul {
     text-align: center;
     font-weight: 900;
   }
-  
+
   .card .wrapper {
-      width: 78%;
-      margin: 52px 11%;
-  } 
-  
+    width: 78%;
+    margin: 52px 11%;
+  }
+
   .card ul {
     flex-direction: column;
     gap: 35px;
     margin: 35px auto auto;
   }
+
   .card ul li {
     width: 100%;
   }
+
   .card p {
     font-size: 12px;
     line-height: 20px;
     text-align: center;
     margin: 6px 25px 12px;
   }
+
   .card h5::before {
     font-size: 28px;
     padding: 20px 16px;
     width: 17%;
     margin-bottom: 12px;
-}
+  }
+
   .card a:HOVER {
-    background-color:white;
+    background-color: white;
     color: #333b47;
     border-color: #333b47;
     transition: none;
-    }
-    .card a{
+  }
+
+  .card a {
     font-size: 13px;
     padding: 10px 7px;
-    }
+  }
+
   /*=================================
     Second Section styling ends here
   =================================*/
@@ -1452,74 +1199,89 @@ footer ul {
     flex-direction: column;
     gap: 25px;
   }
-  .option1{
-  width: 100%;
+
+  .option1 {
+    width: 100%;
   }
+
   .option-box ul li {
     width: 80%;
     margin: auto;
   }
-  
+
   .inside-options {
     margin: 4% 6% 4%;
   }
+
   .options h3 {
     font-size: 30px;
   }
+
   .options p {
     font-size: 14px;
     margin: 10px 24px 16px;
   }
+
   .option-box figure h4 {
     font-size: 23px;
   }
+
   .option-box figure p {
     font-size: 11px;
   }
-  .options .wrapper{
+
+  .options .wrapper {
     padding: 52px 0px 60px;
   }
-  
+
   .option-box p:hover::after {
-    color:#333b47;
+    color: #333b47;
     transition: none;
   }
- /*=================================
+
+  /*=================================
     Fourth Section styling starts here
   =================================*/
   .box .wrapper {
     flex-direction: column;
   }
+
   .boxes {
     width: 100%;
   }
+
   .boxes {
     width: 80%;
     padding: 52px 10%;
   }
-  .box a{
-  padding: 10px 10px;
+
+  .box a {
+    padding: 10px 10px;
   }
-  .box a:HOVER{
+
+  .box a:HOVER {
     background-color: #333b47;
-    color:aliceblue;
+    color: aliceblue;
     transition: none;
-    }
-    .orange-box a:hover
-    {
-      background-color: #e25a3c;
-      color:aliceblue;
-      transition: none;
-    }  
-    .box ul {
-      padding: 2px 0px 10PX;
   }
+
+  .orange-box a:hover {
+    background-color: #e25a3c;
+    color: aliceblue;
+    transition: none;
+  }
+
+  .box ul {
+    padding: 2px 0px 10PX;
+  }
+
   /*=================================
     Fourth Section styling ends here
   =================================*/
-  .companies{
+  .companies {
     display: none;
   }
+
   /*=================================
     Fifth Section styling starts here
   =================================*/
@@ -1531,36 +1293,44 @@ footer ul {
     width: 100%;
     height: 500px;
   }
+
   .contact form {
     margin: 0px 5%;
   }
+
   .contact-parts {
     flex-direction: column;
     gap: 10px;
     align-items: center;
   }
+
   .input-box {
     width: 80%;
     gap: 10px;
   }
+
   .contact-info {
     width: 80%;
   }
+
   form h4 {
     margin: 40px 0px 26px;
   }
+
   .contact-send {
     justify-content: center;
     margin: 11px 0px;
   }
+
   .contact-send a {
     padding: 10px 15px;
   }
+
   .contact-send a:hover {
-   background-color:#e25a3c ;
-   color: aliceblue;
+    background-color: #e25a3c;
+    color: aliceblue;
   }
-  
+
   /*=================================
     Sixth Section styling ends here
   =================================*/
@@ -1570,24 +1340,29 @@ footer ul {
   .conpany-contact li {
     width: 100%;
   }
+
   .conpany-contact ul {
     justify-content: space-around;
     flex-direction: column;
     gap: 25px;
   }
+
   .conpany-contact .wrapper {
     width: 80%;
     padding: 30px 10%;
   }
+
   .conpany-contact li:before {
-   font-size: 24px;
-   padding: 15px 18px
+    font-size: 24px;
+    padding: 15px 18px
   }
+
   .conpany-contact li:hover:before {
-    background-color:#e25a3c;
+    background-color: #e25a3c;
     color: aliceblue;
     transition: none;
-   }
+  }
+
   /*=================================
     Seventh Section styling ends here
   =================================*/
@@ -1601,144 +1376,163 @@ footer ul {
     padding: 5% 5% 66px;
     gap: 15px;
   }
+
   .footer-right {
     width: 100%;
   }
+
   .footer-left {
     width: 78%;
   }
+
   footer ul {
     font-size: 24px;
     margin: 0px 0px;
     justify-content: start;
     gap: 7px;
   }
+
   .footer-up {
-     gap: 0px; 
-  
+    gap: 0px;
+  }
+
   /*=================================
     Footer Section styling ends here
   =================================*/
-  }
-  
+
   .contact .wrapper {
     position: relative;
   }
 
-  }
+}
 
-  @media only screen and (max-width: 640px) {
-    /*=================================
+@media only screen and (max-width: 640px) {
+
+  /*=================================
       header styling starts here
     =================================*/
-      header .wrapper{
-        display: flex;
-        justify-content: space-between;
-      }
-      .header-center {
-        display:flex;
-        order: 3;
-        width: 5%;
-    }
-    .navbar{
-      display:none;
-    }
-    .header-center ul{
-      display:none;
-    }
-    
-    .header-left {
-      width: 26%;
-      height: 58px;
-      order: 1;
+  header .wrapper {
+    display: flex;
+    justify-content: space-between;
   }
-    .header-left h1 a {
-      font-size: 27px;
-    }
-    .header-left h1::before {
-      font-size: 28px;
-    }
-    .header-left span {
-      font-size: 8px;
-      margin-left: 10px;
-      display: none;
-    }
-    .header-right{
-      width: 47%;
-      padding-left: 0;
-      display: flex;
-      justify-content: space-between;
-      width: 50%;
-      order: 2;
-    }
-    .header-right ul{
-        display: flex;
-        justify-content: space-around;
-        width: 58%;
-        margin-left: 121px;
-    }
-     
-    .header-right a::before {
-      font-size: 19px;
+
+  .header-center {
+    display: flex;
+    order: 3;
+    width: 5%;
   }
-    .header-right a:hover{
-      color: #808080f5;
-      transition: none;
-     }
-     .header-center a:hover{
-      color: #808080f5;
-      transition: none;
-     }
-    
-     .header-center::after{
-      position: relative;
-      content:"\f0c9" ;
-      font-family: "FontAwesome";
-      color: #808080f5;
-      margin: 0px 0 0px 24%;
-     }
-    
-    .navbar {
-      width: 100%;
-      height: 100vh;
-      position: absolute;
-      top: 92%;
-      right: 0%;
-      display: flex;
-      flex-direction: column;
-      background-color: #e25a3c;
-      z-index: 10;
-    }
-    
-    .navbar li {
-      padding: 10px 0;
-      color: #fff;
-    }
-    
-    .header-center:hover .navbar{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-       }
-       .header-center, .header-right {
-        font-size: 19px;
-    }
-    /*=================================
+
+  .navbar {
+    display: none;
+  }
+
+  .header-center ul {
+    display: none;
+  }
+
+  .header-left {
+    width: 26%;
+    height: 58px;
+    order: 1;
+  }
+
+  .header-left h1 a {
+    font-size: 27px;
+  }
+
+  .header-left h1::before {
+    font-size: 28px;
+  }
+
+  .header-left span {
+    font-size: 8px;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .header-right {
+    width: 47%;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    order: 2;
+  }
+
+  .header-right ul {
+    display: flex;
+    justify-content: space-around;
+    width: 58%;
+    margin-left: 121px;
+  }
+
+  .header-right a::before {
+    font-size: 19px;
+  }
+
+  .header-right a:hover {
+    color: #808080f5;
+    transition: none;
+  }
+
+  .header-center a:hover {
+    color: #808080f5;
+    transition: none;
+  }
+
+  .header-center::after {
+    position: relative;
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    color: #808080f5;
+    margin: 0px 0 0px 24%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 92%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e25a3c;
+    z-index: 10;
+  }
+
+  .navbar li {
+    padding: 10px 0;
+    color: #fff;
+  }
+
+  .header-center:hover .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header-center,
+  .header-right {
+    font-size: 19px;
+  }
+
+  /*=================================
       header styling ends here
     =================================*/
- /*=================================
+  /*=================================
     First Section styling starts here
   =================================*/
-  .banner{
+  .banner {
     position: relative;
     height: 370px;
   }
-  
+
   .banner img {
     object-fit: cover;
     width: 100%;
     height: 370px;
   }
+
   .wrapper .banner-down {
     width: 74%;
     font-size: 23px;
@@ -1748,9 +1542,12 @@ footer ul {
     padding: 5px 2%;
     gap: 2%;
   }
-  .banner-left a, .banner-right a {
+
+  .banner-left a,
+  .banner-right a {
     font-size: 25px;
   }
+
   /*=================================
     First Section styling ends here
   =================================*/
@@ -1762,43 +1559,48 @@ footer ul {
     text-align: center;
     font-weight: 900;
   }
-  
+
   .card .wrapper {
-      width: 78%;
-      margin: 52px 11%;
-  } 
-  
+    width: 78%;
+    margin: 52px 11%;
+  }
+
   .card ul {
     flex-direction: column;
     gap: 35px;
     margin: 35px auto auto;
   }
+
   .card ul li {
     width: 100%;
   }
+
   .card p {
     font-size: 12px;
     line-height: 20px;
     text-align: center;
     margin: 6px 25px 12px;
   }
- 
-.card h5::before {
-  font-size: 28px;
-  padding: 20px 15px;
-  width: 14%;
-  margin-bottom: 12px;
-}
+
+  .card h5::before {
+    font-size: 28px;
+    padding: 20px 15px;
+    width: 14%;
+    margin-bottom: 12px;
+  }
+
   .card a:HOVER {
-    background-color:white;
+    background-color: white;
     color: #333b47;
     border-color: #333b47;
     transition: none;
-    }
-    .card a{
+  }
+
+  .card a {
     font-size: 13px;
     padding: 10px 7px;
-    }
+  }
+
   /*=================================
     Second Section styling ends here
   =================================*/
@@ -1809,38 +1611,46 @@ footer ul {
     flex-direction: column;
     gap: 25px;
   }
-  .option1{
-  width: 100%;
+
+  .option1 {
+    width: 100%;
   }
+
   .option-box ul li {
     width: 80%;
     margin: auto;
   }
-  
+
   .inside-options {
     margin: 4% 6% 4%;
   }
+
   .options h3 {
     font-size: 30px;
   }
+
   .options p {
     font-size: 14px;
     margin: 10px 24px 16px;
   }
+
   .option-box figure h4 {
     font-size: 23px;
   }
+
   .option-box figure p {
     font-size: 11px;
   }
-  .options .wrapper{
+
+  .options .wrapper {
     padding: 52px 0px 60px;
   }
-  
+
   .option-box p:hover::after {
-    color:#333b47;
+    color: #333b47;
     transition: none;
   }
+
   /*=================================
     Third Section styling ends here
   =================================*/
@@ -1850,39 +1660,46 @@ footer ul {
   .box .wrapper {
     flex-direction: column;
   }
+
   .boxes {
     width: 100%;
   }
+
   .boxes {
     width: 80%;
     padding: 52px 10%;
   }
-  .box a{
-  padding: 10px 10px;
+
+  .box a {
+    padding: 10px 10px;
   }
-  .box a:HOVER{
+
+  .box a:HOVER {
     background-color: #333b47;
-    color:aliceblue;
+    color: aliceblue;
     transition: none;
-    }
-    .orange-box a:hover
-    {
-      background-color: #e25a3c;
-      color:aliceblue;
-      transition: none;
-    }  
-    .box ul {
-      padding: 2px 0px 10PX;
   }
+
+  .orange-box a:hover {
+    background-color: #e25a3c;
+    color: aliceblue;
+    transition: none;
+  }
+
+  .box ul {
+    padding: 2px 0px 10PX;
+  }
+
   /*=================================
     Fourth Section styling ends here
   =================================*/
-    /*=================================
+  /*=================================
     Fifth Section styling starts here
   =================================*/
-  .companies{
+  .companies {
     display: none;
   }
+
   /*=================================
     Fifth Section styling ends here
   =================================*/
@@ -1894,63 +1711,76 @@ footer ul {
     width: 100%;
     height: 500px;
   }
+
   .contact form {
     margin: 0px 5%;
   }
+
   .contact-parts {
     flex-direction: column;
     gap: 10px;
     align-items: center;
   }
+
   .input-box {
     width: 80%;
     gap: 10px;
   }
+
   .contact-info {
     width: 80%;
   }
+
   form h4 {
     margin: 40px 0px 26px;
   }
+
   .contact-send {
     justify-content: center;
     margin: 11px 0px;
   }
+
   .contact-send a {
     padding: 10px 15px;
   }
+
   .contact-send a:hover {
-   background-color:#e25a3c ;
-   color: aliceblue;
+    background-color: #e25a3c;
+    color: aliceblue;
   }
-  
+
   /*=================================
     Sixth Section styling ends here
   =================================*/
- /*=================================
+  /*=================================
     Seventh Section styling starts here
   =================================*/
   .conpany-contact li {
     width: 100%;
   }
+
   .conpany-contact ul {
     justify-content: space-around;
     flex-direction: column;
     gap: 25px;
   }
+
   .conpany-contact .wrapper {
     width: 80%;
     padding: 30px 10%;
   }
+
   .conpany-contact li:before {
-   font-size: 24px;
-   padding: 15px 18px
+    font-size: 24px;
+    padding: 15px 18px
   }
+
   .conpany-contact li:hover:before {
-    background-color:#e25a3c;
+    background-color: #e25a3c;
     color: aliceblue;
     transition: none;
-   }
+  }
+
   /*=================================
     Seventh Section styling ends here
   =================================*/
@@ -1964,28 +1794,445 @@ footer ul {
     padding: 5% 5% 66px;
     gap: 15px;
   }
+
   .footer-right {
     width: 100%;
   }
+
   .footer-left {
     width: 78%;
   }
+
   footer ul {
     font-size: 24px;
     margin: 0px 0px;
     justify-content: start;
     gap: 7px;
   }
+
   .footer-up {
-     gap: 0px; 
+    gap: 0px;
   }
+
   /*=================================
     Footer Section styling ends here
   =================================*/
-  
-  
+
+
   .contact .wrapper {
     position: relative;
   }
 
+}
+
+/*media query starts*/
+/*media query for 995px starts here*/
+@media only screen and (max-width: 375px) {
+
+  /*=================================
+    header styling starts here
+  =================================*/
+  header .wrapper {
+    display: flex;
+    justify-content: space-between;
   }
+
+  .header-center {
+    display: flex;
+    order: 3;
+    width: 10%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header-center ul {
+    display: none;
+  }
+
+  .header-left {
+    width: 33%;
+    height: 50px;
+    order: 1;
+  }
+
+  .header-left h1 a {
+    font-size: 25px;
+  }
+
+  .header-left h1::before {
+    font-size: 25px;
+  }
+
+  .header-left span {
+    font-size: 8px;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .header-right {
+    width: 47%;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    order: 2;
+  }
+
+  .header-right ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 20px;
+  }
+
+  .header-right a::before {
+    font-size: 16px;
+  }
+
+  .header-right a:hover {
+    color: #808080f5;
+    transition: none;
+  }
+
+  .header-center a:hover {
+    color: #808080f5;
+    transition: none;
+  }
+
+  .header-center::after {
+    position: relative;
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    color: #808080f5;
+    margin: 0px 0 0px 24%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 92%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e25a3c;
+    z-index: 10;
+  }
+
+  .navbar li {
+    padding: 10px 0;
+    color: #fff;
+  }
+
+  .header-center:hover .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*=================================
+    header styling ends here
+  =================================*/
+  /*=================================
+    First Section styling starts here
+  =================================*/
+  .banner {
+    position: relative;
+    height: 320px;
+  }
+
+  .banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 320px;
+  }
+
+  .wrapper .banner-down {
+    width: 74%;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    padding: 5px 2%;
+    gap: 2%;
+  }
+
+  .banner-left a,
+  .banner-right a {
+    font-size: 15px;
+  }
+
+  /*=================================
+    First Section styling ends here
+  =================================*/
+  /*=================================
+    Second Section styling starts here
+  =================================*/
+  .card h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .card .wrapper {
+    width: 78%;
+    margin: 52px 11%;
+  }
+
+  .card ul {
+    flex-direction: column;
+    gap: 35px;
+    margin: 35px auto auto;
+  }
+
+  .card ul li {
+    width: 100%;
+  }
+
+  .card p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 6px 25px 12px;
+  }
+
+  .card h5::before {
+    font-size: 28px;
+    padding: 20px 18px;
+    width: 18%;
+    margin-bottom: 12px;
+  }
+
+  .card a:HOVER {
+    background-color: white;
+    color: #333b47;
+    border-color: #333b47;
+    transition: none;
+  }
+
+  .card a {
+    font-size: 13px;
+    padding: 10px 7px;
+  }
+
+  /*=================================
+    Second Section styling ends here
+  =================================*/
+  /*=================================
+    Third Section styling Starts here
+  =================================*/
+  .option-box ul {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .option1 {
+    width: 100%;
+  }
+
+  .option-box ul li {
+    width: 80%;
+    margin: auto;
+  }
+
+  .inside-options {
+    margin: 4% 6% 4%;
+  }
+
+  .options h3 {
+    font-size: 30px;
+  }
+
+  .options p {
+    font-size: 14px;
+    margin: 10px 24px 16px;
+  }
+
+  .option-box figure h4 {
+    font-size: 23px;
+  }
+
+  .option-box figure p {
+    font-size: 11px;
+  }
+
+  .options .wrapper {
+    padding: 52px 0px 60px;
+  }
+
+  .option-box p:hover::after {
+    color: #333b47;
+    transition: none;
+  }
+
+  /*=================================
+    Third Section styling ends here
+  =================================*/
+  /*=================================
+    Fourth Section styling starts here
+  =================================*/
+  .box .wrapper {
+    flex-direction: column;
+  }
+
+  .boxes {
+    width: 100%;
+  }
+
+  .boxes {
+    width: 80%;
+    padding: 52px 10%;
+  }
+
+  .box a {
+    padding: 10px 10px;
+  }
+
+  .box a:HOVER {
+    background-color: #333b47;
+    color: aliceblue;
+    transition: none;
+  }
+
+  .orange-box a:hover {
+    background-color: #e25a3c;
+    color: aliceblue;
+    transition: none;
+  }
+
+  .box ul {
+    padding: 2px 0px 10PX;
+  }
+
+  /*=================================
+    Fourth Section styling ends here
+  =================================*/
+  .companies {
+    display: none;
+  }
+
+  /*=================================
+    Fifth Section styling starts here
+  =================================*/
+  /*=================================
+    Sixth Section styling ends here
+  =================================*/
+  .contact img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+  .contact form {
+    margin: 0px 5%;
+  }
+
+  .contact-parts {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .input-box {
+    width: 80%;
+    gap: 10px;
+  }
+
+  .contact-info {
+    width: 80%;
+  }
+
+  form h4 {
+    margin: 40px 0px 26px;
+  }
+
+  .contact-send {
+    justify-content: center;
+    margin: 11px 0px;
+  }
+
+  .contact-send a {
+    padding: 10px 15px;
+  }
+
+  .contact-send a:hover {
+    background-color: #e25a3c;
+    color: aliceblue;
+  }
+
+  .contact .wrapper {
+    position: relative;
+  }
+
+
+  /*=================================
+    Sixth Section styling ends here
+  =================================*/
+  /*=================================
+    Seventh Section styling starts here
+  =================================*/
+  .conpany-contact li {
+    width: 100%;
+  }
+
+  .conpany-contact ul {
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .conpany-contact .wrapper {
+    width: 80%;
+    padding: 30px 10%;
+  }
+
+  .conpany-contact li:before {
+    font-size: 24px;
+    padding: 15px 18px
+  }
+
+  .conpany-contact li:hover:before {
+    background-color: #e25a3c;
+    color: aliceblue;
+    transition: none;
+  }
+
+  /*=================================
+    Seventh Section styling ends here
+  =================================*/
+  /*=================================
+    Footer Section styling starts here
+  =================================*/
+  footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 5% 66px;
+    gap: 15px;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-left {
+    width: 78%;
+  }
+
+  footer ul {
+    font-size: 24px;
+    margin: 0px 0px;
+    justify-content: start;
+    gap: 7px;
+  }
+
+  .footer-up {
+    gap: 0px;
+  }
+
+  /*=================================
+    Footer Section styling ends here
+  =================================*/
+}
